@@ -6,5 +6,10 @@ The platform sitting ontop of kubernetes is Rancher.
 
 Versions:
 
-* Rancher: v2.4.16
-* K3s: v1.18.20+k3s1
+* Rancher: v2.4.16 (https://rancher.com/products/rancher)
+* K3s: v1.18.20+k3s1 (https://rancher.com/products/k3s)
+
+
+## Rancher Console
+
+GuldenTech Rancher is accessible at https://rancher.guldentech.com

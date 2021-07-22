@@ -6,10 +6,22 @@
   
   - [Access](pages/access.md)
 
-- Persiting Storage
+- General Deployments
+
+	- [Deploying](pages/deploy.md)
 
 - CI/CD with Rancher Pipelines
 
+	- [Pipeline](pages/pipeline.md)
+
+- Persiting Storage
+	
+	- [Storage](pages/storage.md)
+
 - Ingress
 
+ 	- [Setup](pages/ingress.md)
+
 - Apps/ Helm Charts
+
+	- [Apps](pages/apps.md)
