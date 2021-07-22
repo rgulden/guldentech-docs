@@ -27,6 +27,6 @@ spec:
 
 ## nfs cloud backup
 
-A custom option, is to have GuldenTech provision a PV / PVC pair to a location that is stored on a cloud instance.
+A custom option is to have GuldenTech provision a PV / PVC pair to a location that is stored on a cloud instance.
 
 If you are interested in this, please open a git issue here ( https://github.com/rgulden/guldentech-docs/issues ) and tag it "Cloud PVC Request". Someone from GuldenTech will reach out and let you know if your use case works for this setup.
