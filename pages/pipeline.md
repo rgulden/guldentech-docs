@@ -2,15 +2,15 @@
 
 Please review the Rancher pipeline documentation page here (https://rancher.com/docs/rancher/v2.0-v2.4/en/pipelines/) for creating pipelines.
 
-But the essential part is making sure, on the rancher console you follow the steps outlined after clicking "Configure Repos".
+But the essential part is making sure on the Rancher console you follow the steps outlined after clicking "Configure Repos".
 
 ![pipeline](../_media/pipeline.png)
 
-If its your first time, it will ask you to setup your connection to github. Follow the steps it says.
+If it's your first time it will ask you to setup your connection to github. Follow the steps it says.
 
-## Rancher Pipelie YAML
+## Rancher Pipeline YAML
 
-Your repo will need a .rancher-pipeline.yaml file which will faciliate the pipeline. 
+Your repo will need a .rancher-pipeline.yaml file which will facilitate the pipeline. 
 
 Below is a basic Build and deploy example.
 
@@ -30,13 +30,13 @@ stages:
       path: ./deploy.yaml
 ```
 
-Above defines it will first build a image from the "Dockerfile" file at the root of your repo, push it to the local registry with the name image-name:v1.0. Following that, it will run kubectl apply -f deploy.yaml. 
+Above defines it will first build an image from the "Dockerfile" file at the root of your repo, push it to the local registry with the name image-name:v1.0. Following that, it will run kubectl apply -f deploy.yaml. 
 
 !> Make sure your namespace is defined in your deploy file.
 
 ## Deploy config settings
 
-In your deploy.yaml file your will need to add three special sections. 
+In your deploy.yaml file you will need to add three special sections. 
 
 1. Pipeline secrets
 2. Image name
@@ -75,7 +75,7 @@ spec:
 
 ## Alerts for failures
 
-If you would like, we can configure alerts to the pipeline yaml file that will send you a email on conditions.
+If you would like, we can configure alerts to the pipeline yaml file that will send you an email on conditions.
 
 ```yaml
 stages: {}
