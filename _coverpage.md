@@ -4,4 +4,4 @@
 
 - This site is the developers guide to bulding / deploying apps on GuldenTech's infrastrucutre.
 
-[Getting Started](#guldentech)
+[Getting Started](#welcome-developers)
