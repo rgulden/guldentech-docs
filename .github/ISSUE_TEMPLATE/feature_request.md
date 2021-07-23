@@ -1,20 +1,21 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: App deployment request
+about: Request a app to be deployed to a project / namespace
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**What namespace / project is this for?**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**What app would you like & for what**
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Do you need data persisted?**
+
+
+**Do you want a ingress**
+
+
+**If yes to ingress, what URL will be pointing to this app?**
