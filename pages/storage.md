@@ -25,8 +25,21 @@ spec:
 
 !> All these local paths are backed up once a day to a seperate HD.
 
-## nfs cloud backup
+##  block-storage with longhorn
 
-A custom option is to have GuldenTech provision a PV / PVC pair to a location that is stored on a cloud instance.
+For apps that need 100% uptime, please create a longhorn pvc. The data will be replicated across nodes, so pods are not bound to the nodes their pvcs exist on.
 
-If you are interested in this, please open a git issue here ( https://github.com/rgulden/guldentech-docs/issues ) and tag it "Cloud PVC Request". Someone from GuldenTech will reach out and let you know if your use case works for this setup.
+Example:
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: test
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: longhorn
+  resources:
+    requests:
+      storage: 1Gi
+```
