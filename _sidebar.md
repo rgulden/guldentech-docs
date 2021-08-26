@@ -13,7 +13,7 @@
 - CI/CD with Rancher Pipelines
 
 	- [Setup](pages/pipeline.md)
-	- [YAML Files](pages/pipeline-yamls.md)
+	- [YAML Files](pages/pipeline-yaml.md)
 	- [Alerts](pages/pipeline-alerts.md)
 	- [Webhooks](pages/pipeline-webhook.md)
 
