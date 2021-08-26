@@ -12,7 +12,10 @@
 
 - CI/CD with Rancher Pipelines
 
-	- [Pipeline](pages/pipeline.md)
+	- [Setup](pages/pipeline.md)
+	- [YAML Files](pages/pipeline-yamls.md)
+	- [Alerts](pages/pipeline-alerts.md)
+	- [Webhooks](pages/pipeline-webhook.md)
 
 - Persiting Storage
 	
