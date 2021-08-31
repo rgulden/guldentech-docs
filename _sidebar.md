@@ -25,6 +25,10 @@
 
  	- [Setup](pages/ingress.md)
 
+- Alerting
+
+ 	- [Request](pages/alerts.md)
+ 
 - Apps/ Helm Charts
 
 	- [Apps](pages/apps.md)
