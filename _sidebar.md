@@ -27,7 +27,7 @@
 
 - Alerting
 
- 	- [Request](pages/alerts.md)
+ 	- [Request](pages/alerting.md)
  
 - Apps/ Helm Charts
 
